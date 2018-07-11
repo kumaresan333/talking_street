@@ -51,20 +51,19 @@ export class AppComponent {
       JSON.stringify(item.seo_keywords).toLowerCase().includes(q) || 
       JSON.stringify(item.address).toLowerCase().includes(q) ||
       JSON.stringify(item.cuisine).toLowerCase().includes(q);
-    });
-    //   if (this.search.string) {
-    //     this.isSearch = true;
-    //     this.searchedData = this.data.filter(ele => {
-    //       return (
-    //         ele.seo_keywords.includes(this.search.string) &&
-    //         ele.location ? ele.location === this.search.location : null &&
-    //         ele.location === this.search.cuisine
-    //       );
-    //     });
-    //     console.log(this.searchedData, 'dataaa')
-    //   } else {
-    //     this.isSearch = false;
-    //   }
-    // }
-  }
+  });
+  //   if (this.search.string) {
+  //     this.isSearch = true;
+  //     this.searchedData = this.data.filter(ele => {
+  //       return (
+  //         ele.seo_keywords.includes(this.search.string) &&
+  //         ele.location ? ele.location === this.search.location : null &&
+  //         ele.location === this.search.cuisine
+  //       );
+  //     });
+  //     console.log(this.searchedData, 'dataaa')
+  //   } else {
+  //     this.isSearch = false;
+  //   }
+  // }
 }
